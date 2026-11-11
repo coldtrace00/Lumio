@@ -24,6 +24,12 @@
 - Ярлик на робочому столі, автозапуск з Windows, запуск одразу після встановлення.
 - **Мова (українська / English)** вибирається вгорі вікна інсталятора і передається програмі.
 
+Потрібно: **Windows 10 або 11, 64-біт**.
+
+> **Якщо Windows показує «Windows захистила ваш ПК»** — це SmartScreen: інсталятор не має платного цифрового
+> підпису, тому Windows його ще «не знає». Натисніть **«Докладніше» → «Усе одно запустити»**.
+> Вихідний код повністю відкритий у цьому репозиторії, і програму можна зібрати самому (див. нижче).
+
 ## Оновлення
 
 **Однією кнопкою.** Правий клік по значку Lumio в треї → **«Перевірити й оновити…»**. Програма запитає GitHub
@@ -186,6 +192,12 @@ Run **`Lumio-Setup.exe`** — a single file containing the whole program. Pick t
 - **Install on this computer** into any folder (no administrator rights) — Start menu, “Settings → Apps”;
 - **Portable version** — everything (settings and screenshots) in one folder;
 - desktop shortcut, start with Windows, launch after installation.
+
+Requires **Windows 10 or 11, 64-bit**.
+
+> **If Windows shows “Windows protected your PC”**, that is SmartScreen: the installer has no paid code-signing
+> certificate, so Windows does not “know” it yet. Click **“More info” → “Run anyway”**. The source code is fully open
+> in this repository, and you can build the program yourself (see below).
 
 ## Updates
 **One button.** Right-click the Lumio tray icon → **“Check for updates…”**. The program asks GitHub for the
